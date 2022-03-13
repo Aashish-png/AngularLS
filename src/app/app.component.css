@@ -1,0 +1,31 @@
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+@import '~@angular/material/prebuilt-themes/pink-bluegrey.css';
+@import '~@angular/material/prebuilt-themes/purple-green.css';
+
+header{
+
+
+    background-color: black;
+    
+}
+header ul li a{
+    display: inline-block;
+    position:absolute;
+    justify-self: start;
+    
+}
+body.mat-typography {
+    background-color: rgb(7, 22, 22);
+}
+button{
+    padding: 1%;
+    background-color: rgb(13, 126, 98);
+    border-radius: 10px;
+    display: flex;
+    display: inline;
+    justify-content:space-around;
+
+
+
+}

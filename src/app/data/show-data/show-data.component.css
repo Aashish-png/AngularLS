@@ -1,0 +1,35 @@
+*{
+    margin: 4px;
+    padding: 5px;
+}
+.container{
+    background-color: rgba(0, 0, 0, 0.452);
+    color: rgb(255, 255, 255);
+    margin: 3px;
+    background-image: url('/src/assets/Cottoc.Net\ -\ 3DWallpaper\ 012.jpg');
+ }
+tr:hover {background-color: rgb(30, 88, 155);}
+tr{
+    margin: 3%;
+    padding: 20%;
+}
+
+body.mat-typography {
+    background-color: cyan;
+}
+.back{
+    background-color: rgba(17, 10, 29, 0.822);
+    margin:0;
+    padding-top:5%;
+    padding-bottom: 35%;
+    overflow-x: hidden;
+    background-image: url("/src/assets/Cottoc.Net\ -\ 3DWallpaper\ 012.jpg");
+}
+button{
+    padding: 10px;
+    background-color: rgb(109, 195, 22);
+    border-radius: 10px;
+    display: flex;
+    display: inline;
+
+}

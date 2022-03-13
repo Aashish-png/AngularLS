@@ -1,0 +1,46 @@
+
+.container{
+    
+    background-color: rgb(18 15 15 / 82%);
+    color: aliceblue;
+    margin: 5%37%30%;
+    padding: 3%;
+    border-radius: 10px;
+    position: relative;
+    bottom: 60px;
+}   
+
+ section{
+    background-image: url('src/assets/supernova-rainbow-explosion_1920x1080_64-hd.jpg');
+    background-size: cover;
+    overflow: hidden;
+    margin-top: 1%;
+    color: azure;
+    margin-bottom: 1%;
+}
+
+input {
+    padding: 3.5%;
+    margin:5%5%5%5%;
+    border-radius: 10px;
+    margin-right: 4%;
+   
+    
+}
+button{
+    padding: 5%;
+    background-color: rgb(109, 195, 22);
+    border-radius: 10px;
+
+}
+.div1{
+    background-color: rgba(231, 0, 0, 0.568);
+    color: aliceblue;
+    padding: 1%;
+    margin-right: 2%;
+
+}
+label{
+    font-size: large;
+}
+
