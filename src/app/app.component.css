@@ -8,11 +8,13 @@ header{
 
     background-color: black;
     
+    
 }
-header ul li a{
-    display: inline-block;
+header ul li  {
+    display: contents;
     position:absolute;
     justify-self: start;
+    margin: 50;
     
 }
 body.mat-typography {
@@ -20,7 +22,7 @@ body.mat-typography {
 }
 button{
     padding: 1%;
-    background-color: rgb(13, 126, 98);
+    background-color: rgba(39, 178, 212, 0.863);
     border-radius: 10px;
     display: flex;
     display: inline;
@@ -28,4 +30,18 @@ button{
 
 
 
+}
+ul{
+    margin:0;
+}
+.btn3{
+    margin-left: 50px;
+}
+#div{
+    display: contents;
+    color: #f44336;
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-variant-alternates: historical-forms;
+    font-style: bold;
 }

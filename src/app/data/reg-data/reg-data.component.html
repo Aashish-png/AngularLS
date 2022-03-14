@@ -2,6 +2,7 @@
 <!-- form to register new data -->
     <div>
         <form required #basic="ngForm"  class="container" >
+            
             <label for="name">Name</label><br>
             <input type="text" required #name="ngModel" [(ngModel)]="showData.Uname" for="name" name="Uname">
             <div class="div1" *ngIf=" name.invalid && name.touched ">Please Enter Vaild Name</div>

@@ -27,12 +27,12 @@ input {
    
     
 }
-button{
+/* button{
     padding: 5%;
     background-color: rgb(109, 195, 22);
     border-radius: 10px;
 
-}
+} */
 .div1{
     background-color: rgba(231, 0, 0, 0.568);
     color: aliceblue;

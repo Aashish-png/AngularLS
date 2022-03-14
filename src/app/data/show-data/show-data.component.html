@@ -17,9 +17,13 @@
                 <td>{{items.email}}</td>
                 <td>{{items.mobile}}</td>
                 <td>{{items.city}}</td>
-                <button [routerLink]="['/update',items.UserId]">Edit</button>
-                <button (click)="DeleteData(items.UserId)" style="background-color: red;">Delete</button>
+                <button class="btn" [routerLink]="['/update',items.UserId]">Edit</button>
                 
+                <button class="btn2" mat-fab color="primary" (click)="DeleteData(items.UserId)" aria-label="Example icon button with a delete icon">
+                    <mat-icon>delete</mat-icon>
+                  </button>
+
+                  
             </tr>
         </tbody>
     </table>

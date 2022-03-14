@@ -1,12 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 import { dataObj } from 'src/app/data';
+import { DataSource } from '@angular/cdk/collections';
 @Component({
   selector: 'app-show-data',
   templateUrl: './show-data.component.html',
   styleUrls: ['./show-data.component.css']
 })
 export class ShowDataComponent implements OnInit {
-
+  dataSource: any
   showData:dataObj[];
   constructor() {
     this.showData=[];
